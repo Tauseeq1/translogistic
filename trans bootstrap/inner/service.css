@@ -1,0 +1,54 @@
+.service-content .buttons button{
+	outline:none;
+	border:none;
+	background:var(--navbar-bg);
+	color:#fff;
+	width:80%;
+	padding:15px 20px;
+	letter-spacing: 1px;
+	text-align:left;
+
+}
+
+@media screen and (max-width:992px){
+	.service-content .buttons button{
+		width:60%;
+	}
+}
+
+.service-content .buttons button:hover{
+	background:var(--light-red);
+}
+.service-content .buttons button.activebtn{
+	background:var(--light-red);
+}
+
+.service-content .buttons button i{
+	margin-right:10px;
+}
+
+.service-content .right img{
+	max-width:100%;
+	max-height:100%;
+}
+
+.service-content .right button{
+	outline:none;
+	border:none;
+	background:var(--light-red);
+	color:#fff;
+	padding:15px 20px;
+	letter-spacing: 1px;
+	text-align:left;
+}
+.service-content .right p{
+	color:var(--greyish);
+}
+
+.service-content .right .row:not(.active){
+	display: none;
+}
+
+.active{
+	display:block;
+}

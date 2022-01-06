@@ -1,0 +1,38 @@
+
+
+/*working for about content*/
+
+.about-content p{
+	color:var(--greyish);
+}
+
+/*accordian w3 css*/
+
+.accordion {
+  background:#fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion p{
+	color:#000;
+}
+
+.accordion i {
+    color:#fff;
+    padding:5px 10px;
+    background:var(--light-red);
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}	
